@@ -22,7 +22,7 @@ serve = ->
 			return next()
 		)
 
-		server.listen 3000, ->
+		server.listen 4000, ->
 			console.log '%s listening at %s', server.name, server.url
 
 exports.serve = serve
